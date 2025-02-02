@@ -1,0 +1,42 @@
+patch:
+  style:
+    color_scheme: wechat # 使用预设的微信配色方案
+    font_face: '微软雅黑' # 设置字体为微软雅黑
+    font_point: 22 # 字体大小设置为22点
+    horizontal: true # 设置候选词排列为水平排列
+    inline_preedit: true # 设置在输入框内即时显示预编辑文本
+    label_font_point: 22 # 设置序号字体的大小为22点
+    layout:
+      border: 2 # 设置边框厚度为2
+      round_corner: 10 # 设置圆角半径为10
+      spacing: 0 # 设置候选词间的间距为0
+      align_type: center # 设置候选词排列方式为居中
+      min_width: 10 # 设置最小宽度为10
+      margin_x: 12 # 设置水平边距为12
+      margin_y: 8 # 设置垂直边距为8
+      candidate_spacing: 11 # 设置候选词间距为11
+      hilite_spacing: 2 # 设置高亮候选词间距为2
+      hilite_padding: 3 # 设置高亮候选词内边距为3
+      hilite_padding_x: 7 # 设置高亮候选词水平内边距为7
+      corner_radius: 7 # 设置角落圆度为7
+      shadow_radius: 7 # 设置阴影半径为7
+  preset_color_schemes:
+    wechat:
+      name: '微信键盘 / WeChat-keyboard' # 配色取自微信键盘
+      author: weichat # 方案作者
+      back_color: 0xFFFFFF # 背景颜色设置为白色
+      #border_color: 0xB4B4B4 #边框背景灰色
+      border_height: 0 # 边框高度设置为0
+      border_width: 8 # 边框宽度设置为8
+      candidate_format: '%c\u2005%@\u2005' # 设置候选格式
+      comment_text_color: 0x999999 # 评论文本颜色
+      corner_radius: 5 # 设置圆角半径为5
+      hilited_corner_radius: 5 # 设置高亮候选词的圆角半径为5
+      hilited_candidate_back_color: 0x75B100 # 设置高亮候选词背景颜色
+      hilited_candidate_text_color: 0xFFFFFF # 设置高亮候选词文本颜色为白色
+      hilited_label_color: 0xFFFFFF # 设置高亮序号颜色为白色
+      label_color: 0x888888 # 设置序号颜色为淡灰色
+      label_font_point: 20 # 设置序号字体大小为20点
+      text_color: 0x424242 # 设置文本颜色为深灰色
+      border_color: 0x00B4B4B4 # 设置边框颜色
+      shadow_color: 0x20000000 # 设置阴影颜色
